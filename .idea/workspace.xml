@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3fa37e7b-07fd-41ba-b806-6968a266fedf" name="Changes" comment="Changes">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/ReggieApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/common/BaseContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/common/CustomException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/common/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/common/JacksonObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/common/MyMetaObjecthandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/common/R.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/config/MybatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/config/WebMvcConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/controller/AddressBookController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/controller/CommonController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/controller/DishController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/controller/OrderDetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/controller/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/controller/SetmealController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/controller/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/dto/DishDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/dto/OrdersDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/dto/SetmealDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/entity/AddressBook.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/entity/Dish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/entity/DishFlavor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/entity/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/entity/OrderDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/entity/Orders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/entity/Setmeal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/entity/SetmealDish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/entity/ShoppingCart.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/filter/LoginCheckFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/mapper/AddressBookMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/mapper/DishFlavorMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/mapper/DishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/mapper/EmployeeMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/mapper/OrderDetailMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/mapper/OrdersMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/mapper/SetmealDishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/mapper/SetmealMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/mapper/ShoppingCartMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/AddressBookService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/DishFlavorService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/DishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/OrderDetailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/OrdersService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/SetmealDishService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/SetmealService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/ShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/impl/AddressBookServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/impl/DishFlavorServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/impl/DishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/impl/OrderDetailServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/impl/OrdersServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/impl/SetmealDishServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/impl/SetmealServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/impl/ShoppingCartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/utils/SMSUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/utils/ValidateCodeUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/food.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/member.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/404-images/404-cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/404-images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_back@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_clean@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/btn_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/icon_index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/icon_upload@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/jine_m-2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/renshu@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/icons/xiangmujine@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/img_brand01@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/img_denglu_bj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/login-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/login/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/js/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/combo/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/demo/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/food/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/member/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/page/order/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/axios/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/element-ui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/plugins/vue/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/icon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/backend/styles/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/cartData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/DIN-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/DIN-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/fonts/PingFangSC-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/cart_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/checked_false.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/checked_true.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/demo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/favico.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/headPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/locations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/mainBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/no_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/no_wifi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/orders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/subtract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/images/women.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/js/vant.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/add-order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/address-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/no-wify.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/pay-success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/page/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/add-order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/address-edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/address.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/no-wify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/pay-success.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/front/styles/vant.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/yakusa/test/SpringDataRedisTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/additional-spring-configuration-metadata.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/category.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/combo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/food.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/member.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/404-images/404-cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/404-images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/btn_back@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/btn_clean@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/btn_close@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/icon_index.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/icon_upload@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/jine_m-2@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/renshu@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/icons/xiangmujine@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/img_brand01@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/img_denglu_bj.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/login/login-l.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/login/login-logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/login/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/js/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/category/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/combo/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/combo/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/demo/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/food/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/food/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/login/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/member/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/member/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/page/order/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/axios/axios.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/element-ui/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/plugins/vue/vue.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/common.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/fonts/element-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/fonts/element-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/demo_index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/icon/iconfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/backend/styles/page.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/ReggieApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/common/BaseContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/common/CustomException.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/common/GlobalExceptionHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/common/JacksonObjectMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/common/MyMetaObjecthandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/common/R.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/config/MybatisPlusConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/config/RedisConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/config/WebMvcConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/controller/AddressBookController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/controller/CategoryController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/controller/CommonController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/controller/DishController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/controller/EmployeeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/controller/OrderDetailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/controller/OrdersController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/controller/SetmealController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/controller/ShoppingCartController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/dto/DishDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/dto/OrdersDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/dto/SetmealDto.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/entity/AddressBook.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/entity/Category.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/entity/Dish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/entity/DishFlavor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/entity/Employee.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/entity/OrderDetail.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/entity/Orders.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/entity/Setmeal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/entity/SetmealDish.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/entity/ShoppingCart.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/entity/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/filter/LoginCheckFilter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/mapper/AddressBookMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/mapper/CategoryMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/mapper/DishFlavorMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/mapper/DishMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/mapper/EmployeeMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/mapper/OrderDetailMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/mapper/OrdersMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/mapper/SetmealDishMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/mapper/SetmealMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/mapper/ShoppingCartMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/mapper/UserMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/AddressBookService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/CategoryService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/DishFlavorService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/DishService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/EmployeeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/OrderDetailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/OrdersService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/SetmealDishService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/SetmealService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/ShoppingCartService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/impl/AddressBookServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/impl/DishFlavorServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/impl/DishServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/impl/EmployeeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/impl/OrderDetailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/impl/OrdersServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/impl/SetmealDishServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/impl/SetmealServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/impl/ShoppingCartServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/utils/SMSUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/yakusa/reggie/utils/ValidateCodeUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/api/address.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/api/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/api/order.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/cartData.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/DIN-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/DIN-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Medium.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/fonts/PingFangSC-Semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/cart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/cart_active.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/checked_false.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/checked_true.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/demo4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/favico.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/headPage.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/home.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/locations.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/mainBg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/money.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/noImg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/no_order.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/no_wifi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/orders.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/subtract.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/success.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/time.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/user.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/images/women.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/js/base.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/js/common.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/js/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/js/vant.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/add-order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/address-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/address.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/no-wify.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/order.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/pay-success.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/page/user.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/add-order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/address-edit.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/address.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/no-wify.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/order.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/pay-success.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/user.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/front/styles/vant.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/yakusa/test/SpringDataRedisTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$PROJECT_DIR$/../../../apache-maven-3.6.1/maven_repository/com/baomidou/mybatis-plus-core/3.4.2/mybatis-plus-core-3.4.2.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\apache-maven-3.6.1\maven_repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="2SnI9hunRR6SzZlG8gvwUBfNUEa" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/yakusa/reggie/config" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="问题" />
+    <property name="project.structure.proportion" value="0.12562811" />
+    <property name="project.structure.side.proportion" value="0.31335616" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="ReaderModeSettings">
+    <option name="enabled" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaWork\IdeaProjects\reggie\src\main\java\com\yakusa\reggie\config" />
+      <recent name="D:\JavaWork\IdeaProjects\reggie\src\main\java\com\yakusa\reggie\dto" />
+      <recent name="D:\JavaWork\IdeaProjects\reggie\src\main\java\com\yakusa\reggie\entity" />
+      <recent name="D:\JavaWork\IdeaProjects\reggie\src\main\resources\front" />
+      <recent name="D:\JavaWork\IdeaProjects\reggie\src\main\java\com\yakusa\reggie\controller" />
+    </key>
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.yakusa.reggie.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ReggieApplication">
+    <configuration name="SpringDataRedisTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reggie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yakusa.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yakusa.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yakusa.test.SpringDataRedisTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringDataRedisTest.teststring" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reggie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yakusa.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.yakusa.test" />
+      <option name="MAIN_CLASS_NAME" value="com.yakusa.test.SpringDataRedisTest" />
+      <option name="METHOD_NAME" value="teststring" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReggieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="reggie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yakusa.reggie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yakusa.reggie.ReggieApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ReggieApplication" />
+        <item itemvalue="JUnit.SpringDataRedisTest.teststring" />
+        <item itemvalue="JUnit.SpringDataRedisTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\梁机灵\AppData\Roaming\Subversion</configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3fa37e7b-07fd-41ba-b806-6968a266fedf" name="Changes" comment="" />
+      <created>1689775770435</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689775770435</updated>
+      <workItem from="1689775771879" duration="52239000" />
+      <workItem from="1690099158524" duration="15666000" />
+      <workItem from="1690169838296" duration="27937000" />
+      <workItem from="1690263323532" duration="57824000" />
+      <workItem from="1690556503638" duration="2394000" />
+      <workItem from="1690778456344" duration="4659000" />
+      <workItem from="1690808889672" duration="3669000" />
+      <workItem from="1690813038510" duration="22042000" />
+      <workItem from="1691067273077" duration="616000" />
+      <workItem from="1691067913496" duration="1939000" />
+      <workItem from="1691547819711" duration="587000" />
+      <workItem from="1692609999461" duration="106000" />
+      <workItem from="1695009752377" duration="605000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.net.ConnectException" package="java.net" />
+          <option name="timeStamp" value="3" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
